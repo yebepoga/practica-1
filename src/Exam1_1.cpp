@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
 		unidad = numero%10;
 		
 		invertido = unidad*100 +decena*10 + centena;
-		cout<<" El número invertido es : "<<invertido;
+		cout<<" El número invertido es el siguiente : "<<invertido;
 	}
 	else if( numero >=1000 && numero <10000)
 	{
